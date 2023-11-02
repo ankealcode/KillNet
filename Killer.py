@@ -118,7 +118,7 @@ def send():
                 # print(a)
                 print(f'get...    {a}')
                 aa = s.post(url, headers=headers, )
-                print(aa) ## aa - Kode permintaan keluaran. Jika 200, proxy berfungsi. 400 untuk beberapa alasan - tidak berfungsi. Sama dengan a.s.
+                print(aa) ## aa - Kode permintaan keluaran. Jika 200, proxy berfungsi. 400 untuk beberapa alasan - tidak berfungsi.
                 print(f'post...     {aa}')
                 requests.head(url, headers=headers)
                 print("head...")
